@@ -31,7 +31,7 @@ if (b < c) { m = b; b = c; c = m; }`
 8. **Конец**
 
 ### Блок-схема
-<img width="554" height="1144" alt="image" src="https://github.com/user-attachments/assets/f5378cef-c725-41d6-a045-566ea4cd78f1" />
+<img width="334" height="1144" alt="image" src="https://github.com/user-attachments/assets/f5378cef-c725-41d6-a045-566ea4cd78f1" />
 
 
 
