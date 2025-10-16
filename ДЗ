@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <locale.h>
+
+int main() 
+{
+    setlocale(LC_ALL, "RUS");
+    int a, b, c;
+    int m;
+
+    printf("Введите три цифры (через пробел): ");
+    scanf("%d %d %d", &a, &b, &c);
+
+    if (a < 0 || a > 9 || b < 0 || b > 9 || c < 0 || c > 9) 
+    {
+        printf("Ошибка: введите цифры от 0 до 9!\n");
+        return 1;
+    }
+
+    if (a < b) { m = a; a = b; b = m; }
+    if (a < c) { m = a; a = c; c = m; }
+    if (b < c) { m = b; b = c; c = m; }
+
+    int max_num = a * 100 + b * 10 + c;
+
+    printf("Из цифр %d, %d, %d можно составить наибольшее число: %d\n", a, b, c, max_num);
+
+    return 0;
+}
