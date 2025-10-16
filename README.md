@@ -67,5 +67,6 @@ int main()
     return 0;
 }
 ## 3. Результаты работы программы
+<img width="667" height="57" alt="image" src="https://github.com/user-attachments/assets/df0e0271-b74d-40bc-985b-846ddc2e9f66" />
 
 
